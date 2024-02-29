@@ -60,7 +60,7 @@ header {
 
 img {
     height: 70px;
-    padding: 0 2rem 0 2rem;
+
 }
 
 links-header-nav {
