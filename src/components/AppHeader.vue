@@ -27,7 +27,7 @@ export default {
 
         </div>
         <div class="section-container">
-            <img src="../assets/dc-logo 16.34.11.png" alt="">
+            <img src="../assets/dc-logo.png" alt="">
             <div id="links-header-nav">
                 <ul>
                     <li v-for="link in navLinks" :key="link.name">

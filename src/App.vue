@@ -2,12 +2,14 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
 import AppContent from './components/AppContent.vue'
+import AppFeatures from './components/AppFeatures.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
-    AppContent
+    AppContent,
+    AppFeatures
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
 <template>
   <AppHeader></AppHeader>
   <AppContent></AppContent>
+  <AppFeatures></AppFeatures>
 </template>
 
 

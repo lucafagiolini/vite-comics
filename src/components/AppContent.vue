@@ -28,7 +28,7 @@ main {
     padding: 0;
 }
 
-h3 {
+main div h3 {
     @include my-h3-style;
     padding: 50px 0 50px 0;
 }
