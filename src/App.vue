@@ -1,9 +1,11 @@
 
 <script>
+import AppHeader from './components/AppHeader.vue'
 
 export default {
   name: 'App',
   components: {
+    AppHeader
   }
 }
 </script>
@@ -12,13 +14,13 @@ export default {
 
 
 
-<template></template>
+<template>
+  <AppHeader></AppHeader>
+</template>
 
 
 <style>
-/* #id {
-  display: flex;
-  margin: 0 auto;
-  max-width: 800px;
-} */
+body {
+  font-style: sans-serif;
+}
 </style>
