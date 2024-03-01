@@ -23,9 +23,6 @@ export default {
 
 <template>
     <header>
-        <div class="white-air">
-
-        </div>
         <div class="section-container">
             <img src="../assets/dc-logo.png" alt="">
             <div id="links-header-nav">
@@ -37,8 +34,6 @@ export default {
 
             </div>
         </div>
-        <div class="white-air">
-        </div>
 
     </header>
 </template>
@@ -47,11 +42,8 @@ export default {
 @use '../_mixins.scss' as *;
 @use '../variables' as *;
 
-.white-air {
-    background-color: white;
-    height: 3px;
-    width: 100%;
-}
+
+
 
 header {
     background-color: white;
@@ -81,8 +73,10 @@ links-header-nav {
     align-items: center;
 
     &:hover {
-        border-bottom: 3px solid $universalBlueColor;
+        border-bottom: 4px solid $universalBlueColor;
+
     }
+
 
 }
 
@@ -100,6 +94,8 @@ a {
 
     &:hover {
         color: $universalBlueColor;
+        transform: scale(1.1);
+        transition: transform 0.3s;
     }
 }
 </style>

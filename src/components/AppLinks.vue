@@ -150,7 +150,8 @@ export default {
                 </div>
             </div>
             <div id="logo-container">
-                <img src="/src/assets/dc-logo-bg.png" alt="">
+                <img src="/src/assets/dc-logo-bg.png" alt="DC Logo">
+
             </div>
         </div>
 
@@ -168,7 +169,6 @@ export default {
 #link-container {
     @include my-aria-space;
     justify-content: space-between;
-
 }
 
 #link-list-container {
@@ -176,7 +176,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 400px;
+    max-height: 370px;
 }
 
 #link-container h3 {
@@ -184,6 +184,7 @@ export default {
     font-size: 1rem;
     margin: 0;
     padding: 0;
+    padding-top: 15px;
 
     text-transform: uppercase;
 
@@ -194,6 +195,10 @@ export default {
     list-style: none;
     padding: 0 20px 0 0;
     margin: 0;
+
+    li {
+        height: auto;
+    }
 }
 
 
